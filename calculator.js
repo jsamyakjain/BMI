@@ -17,6 +17,7 @@ app.post("/", function(req,res)
 
         var ans = weight/(height*height);
         res.send("Your BMI is: " + ans);
+        var shivam="honestman"
     });
 
 app.listen(3000,function()
